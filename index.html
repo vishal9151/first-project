@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vsm cricket academy</title>
+</head>
+    <link rel="stylesheet" href="cs.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url("img/background\ img.jpg");
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: 'Ballu Bhai',cursive;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            
+        }
+        .left{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+
+        }
+        .left img{
+            width: 94px;
+            filter: invert(100%);
+        
+        }
+        .left div{
+            text-align: center;
+            margin: auto;
+        width: 62px;
+        }
+        .mid{
+            /* border: 2px solid yellow; */
+            display: block;
+            margin: 10px auto;
+            width: 30%;
+            height: 30%;
+        
+        
+        }
+        .right{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+
+        }
+        
+        .navbar{
+            display: inline-block;
+            text-align: center;
+            margin-top: 1px;
+        
+        }
+        li{
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            font-size: 15px;
+
+        }
+     .navbar li a{
+         color: white;
+         text-decoration: none;
+     }
+     li a:hover{
+         color: yellow;
+         text-decoration: underline;
+     }
+     .contact{
+        border-radius: 10px;
+    width: 82px;
+    height: 26px;
+    margin: 17px;
+     }
+     .contact a{
+         text-decoration: none;
+     }
+     .contact a:hover{
+         color: rgb(151, 63, 63);
+         text-decoration: underline;
+     }
+     .visit{
+         border-radius: 10px;
+     }
+     .visit a{
+         text-decoration: none;
+     }
+     .visit a:hover{
+         color: rgb(151, 63, 63);
+         text-decoration: underline;
+     }
+     .user{
+         /* border: 2px solid yellow; */
+         margin: 94px;
+    width: 400px;
+    height: 400px;
+     }
+     .user{
+         text-align: center;
+         padding: 10px;
+         
+     }
+     .formfill{
+         margin: 10px auto;
+         
+     }
+     input{
+          font-family: 'Baloo Bhai',cursive ;
+          background-color: moccasin;
+     }
+     .submit{
+         border-radius: 10px;
+         margin: 0px 9px;
+         padding: 5px 67px;
+         cursor: pointer;
+    
+     }
+     .submit:hover {
+        background-color: rgb(240, 13, 13);
+    }
+    h1{
+        color: mediumspringgreen;
+    }
+
+    
+    </style>
+<body>
+    <header>
+        <!-- left for logo -->
+        <div class="left">
+            <img src="/img/back.png" alt="">
+            <div>VSM cricket academy</div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+<ul class="navbar">
+    <li ><a href="#">Home</a></li>
+    <li ><a href="#">About us</a> </li>
+    <li ><a href="#">Achevements</a></li>
+    <li ><a href="#">Fees</a></li>
+</ul>
+
+        </div>
+        <!-- right for contact usor anythging else -->
+        <div class="right">
+            <button class="contact"><a href="#">Contact us
+            </a></button>
+            <button class="visit"><a href="#">Visit here</a></button>
+        </div>
+    </header>
+    <div class="user">
+        <h1>Join the best academy of your city</h1>
+        <form action="backend.php">
+          <div class="formfill">
+              <input type="text" name="" placeholder="Enter your name" required>
+
+          </div>
+          <div class="formfill">
+            <input type="text" name="" placeholder="Enter your father name"required>
+          </div>
+          <div class="formfill">
+            <input type="text" name="" placeholder="Enter your age"required>
+          </div>
+          <div class="formfill">
+              <input type="text" name="" placeholder="Enter your city"required>
+        </div>
+          <div class="formfill">
+            <input type="text" name="" placeholder="Enter your mobile number"required>
+          </div>
+          <button class="submit">
+              Submit it
+          </button>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
